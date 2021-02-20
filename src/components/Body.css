@@ -1,0 +1,35 @@
+.body{
+    height: 60vh;
+}
+.body::before{
+    content: '';
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background:url("https://www.pixelstalk.net/wp-content/uploads/images1/Room-home-luxury-style-modern-interior-backgrounds-1920x1080.jpg") center/cover no-repeat;
+    z-index: -1;
+}
+.bodyTags{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.bodyTags > button{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.bodyTags > button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}

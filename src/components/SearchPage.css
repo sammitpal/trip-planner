@@ -1,0 +1,30 @@
+.searchPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.searchPage_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.search_quick{
+    width: 100%;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_quick > p{
+    padding: 8px 20px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 99999px;
+}
+.search_quick > p:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    transition:  0.2s all ease-in-out;
+}

@@ -1,0 +1,31 @@
+.booking{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px;
+}
+.booking_info{
+    flex: 1;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.booking > img{
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+.description , .location{
+    color: gray;
+}
+.date{
+    font-size: 0.8rem
+}
+.paid{
+    font-size: 18px;
+}
